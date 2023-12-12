@@ -14,6 +14,7 @@ public class CLSImagens {
 
 	static {
 		try {
+
 			ICON_FLAG = ImageIO.read(CLSImagens.class.getResourceAsStream("flag.png"));
 			ICON_BOMB = ImageIO.read(CLSImagens.class.getResourceAsStream("bomb.png"));
 			ICON_INTERROGATION = ImageIO.read(CLSImagens.class.getResourceAsStream("interrogation.png"));
